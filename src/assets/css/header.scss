@@ -1,0 +1,31 @@
+.wallet-adapter-button-trigger {
+    background-color: #a538ff !important;
+    display: block;
+    margin: 20px;
+    transition: all 0.3s;
+    border-radius: 8px !important;
+    box-shadow: 0 4px 0 rgba(0, 0, 0, 0.25), 0 4px 0 #9442ff, 0 4px 6px rgba(0, 0, 0, 0.45);
+}
+
+.wallet-adapter-button-trigger:hover {
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.45);
+    transform: translateY(4px);
+}
+
+.wallet-adapter-dropdown-list {
+    margin: -20px 20px 20px !important;
+    background-color: #a538ff !important;
+}
+
+.wallet-adapter-modal-wrapper {
+    background-color: #a538ff !important;
+    .wallet-adapter-modal-button-close {
+        background-color: #370b70 !important;
+        padding: 5px !important;
+    }
+    .wallet-adapter-modal-title {
+        font-size: 20px !important;
+        padding: 64px 30px 30px;
+        font-weight: bold;
+    }
+}
